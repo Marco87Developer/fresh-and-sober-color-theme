@@ -1,0 +1,26 @@
+{
+    "name": "fresh-and-sober-color-theme",
+    "displayName": "Fresh and Sober Color Theme",
+    "description": "This is a theme inspired by relaxation and freshness, for a code that is beautiful to look at, easy to read and pleasant to write.",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.62.3"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Fresh and Sober Color Theme | Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/fresh-and-sober-dark-color-theme.json"
+            },
+            {
+                "label": "Fresh and Sober Color Theme | Light",
+                "uiTheme": "vs",
+                "path": "./themes/fresh-and-sober-light-color-theme.json"
+            }
+        ]
+    }
+}
