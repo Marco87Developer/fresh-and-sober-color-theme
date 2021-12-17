@@ -2,7 +2,7 @@
     "name": "fresh-and-sober-color-theme",
     "displayName": "Fresh and Sober Color Theme",
     "description": "This is a theme inspired by relaxation and freshness, for a code that is beautiful to look at, easy to read and pleasant to write.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.62.3"
     },
@@ -22,5 +22,8 @@
                 "path": "./themes/fresh-and-sober-light-color-theme.json"
             }
         ]
-    }
+    },
+    "icon": "logo.png",
+    "publisher": "Marco87Dev",
+    "repository": "https://github.com/Marco87Developer/fresh-and-sober-color-theme"
 }

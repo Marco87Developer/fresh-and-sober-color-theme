@@ -121,7 +121,7 @@
 				"entity.name.function",
 			],
 			"settings": {
-				"foreground": "#FFF4A8",
+				"foreground": "#FFE49E",
 				"fontStyle": "",
 			},
 		},
@@ -320,7 +320,7 @@
 				"entity.name.function.dart",
 			],
 			"settings": {
-				"foreground": "#FFF4A8",
+				"foreground": "#FFE49E",
 				"fontStyle": "",
 			},
 		},
@@ -460,7 +460,7 @@
 				"meta.method.groovy",
 			],
 			"settings": {
-				"foreground": "#FFF4A8",
+				"foreground": "#FFE49E",
 			},
 		},
 		{
@@ -502,7 +502,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json",
 			],
 			"settings": {
-				"foreground": "#FFF4A8",
+				"foreground": "#FFE49E",
 				"fontStyle": "",
 			},
 		},
@@ -562,7 +562,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
 			],
 			"settings": {
-				"foreground": "#FFF4A8",
+				"foreground": "#FFE49E",
 				"fontStyle": "",
 			}
 		},
@@ -645,7 +645,7 @@
 				"punctuation.definition.italic.markdown",
 			],
 			"settings": {
-				"foreground": "#FFF4A8",
+				"foreground": "#FFE49E",
 				"fontStyle": "italic",
 			},
 		},
@@ -696,7 +696,7 @@
 				"punctuation.definition.list.begin.markdown",
 			],
 			"settings": {
-				"foreground": "#FFF4A8",
+				"foreground": "#FFE49E",
 			},
 		},
 		{
