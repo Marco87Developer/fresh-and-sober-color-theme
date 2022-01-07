@@ -566,6 +566,239 @@
 				"fontStyle": "",
 			},
 		},
+		// LaTeX
+		{
+			"name": "LaTeX | Begin document",
+			"scope": [
+				"meta.function.begin-document.latex punctuation.definition.arguments.begin.latex",
+				"meta.function.begin-document.latex punctuation.definition.arguments.end.latex",
+				"meta.function.begin-document.latex support.function.be.latex punctuation.definition.function.latex",
+				"meta.function.begin-document.latex support.function.be.latex",
+			],
+			"settings": {
+				"foreground": "#788BFD",
+			},
+		},
+		{
+			"name": "LaTeX | Begin document (Parameter)",
+			"scope": [
+				"meta.function.begin-document.latex variable.parameter.function.latex",
+			],
+			"settings": {
+				"foreground": "#788BFD",
+				"fontStyle": "bold",
+			},
+		},
+		{
+			"name": "LaTeX | Bold",
+			"scope": [
+				"markup.bold.textbf.latex",
+				"punctuation.definition.textbf.begin.latex",
+				"punctuation.definition.textbf.end.latex",
+				"support.function.textbf.latex punctuation.definition.function.latex",
+				"support.function.textbf.latex",
+			],
+			"settings": {
+				"foreground": "#353535",
+				"fontStyle": "bold",
+			},
+		},
+		{
+			"name": "LaTeX | Class",
+			"scope": [
+				"support.class.latex",
+			],
+			"settings": {
+				"foreground": "#788BFD",
+				"fontStyle": "bold",
+			},
+		},
+		{
+			"name": "LaTeX | Comment",
+			"scope": [
+				"punctuation.definition.comment.tex",
+			],
+			"settings": {
+				"foreground": "#959595",
+				"fontStyle": "bold",
+			},
+		},
+		{
+			"name": "LaTeX | Comment (Percentage)",
+			"scope": [
+				"comment.line.percentage.tex",
+			],
+			"settings": {
+				"foreground": "#959595",
+			},
+		},
+		{
+			"name": "LaTeX | Emph, Textit",
+			"scope": [
+				"markup.italic.emph.latex",
+				"markup.italic.textit.latex",
+				"punctuation.definition.emph.begin.latex",
+				"punctuation.definition.emph.end.latex",
+				"punctuation.definition.textit.begin.latex",
+				"punctuation.definition.textit.end.latex",
+				"support.function.emph.latex punctuation.definition.function.latex",
+				"support.function.emph.latex",
+				"support.function.textit.latex punctuation.definition.function.latex",
+				"support.function.textit.latex",
+			],
+			"settings": {
+				"foreground": "#353535",
+				"fontStyle": "italic",
+			},
+		},
+		{
+			"name": "LaTeX | Environment",
+			"scope": [
+				"meta.function.environment.general.latex punctuation.definition.arguments.begin.latex",
+				"meta.function.environment.general.latex punctuation.definition.arguments.end.latex",
+				"support.function.be.latex punctuation.definition.function.latex",
+				"support.function.be.latex",
+			],
+			"settings": {
+				"foreground": "#63CEA0",
+			},
+		},
+		{
+			"name": "LaTeX | Environment (Parameter)",
+			"scope": [
+				"meta.function.environment.general.latex variable.parameter.function.latex",
+			],
+			"settings": {
+				"foreground": "#63CEA0",
+				"fontStyle": "bold",
+			},
+		},
+		{
+			"name": "LaTeX | Function",
+			"scope": [
+				"constant.character.escape.tex punctuation.definition.keyword.tex",
+				"punctuation.definition.function.tex",
+				"support.function.general.tex",
+			],
+			"settings": {
+				"foreground": "#50B1FE",
+			},
+		},
+		{
+			"name": "LaTeX | Include",
+			"scope": [
+				"keyword.control.include.latex punctuation.definition.function.latex",
+				"keyword.control.include.latex",
+				"meta.include.latex punctuation.definition.arguments.begin.latex",
+				"meta.include.latex punctuation.definition.arguments.end.latex",
+			],
+			"settings": {
+				"foreground": "#B98913",
+			},
+		},
+		{
+			"name": "LaTeX | Preamble (Control)",
+			"scope": [
+				"keyword.control.preamble.latex punctuation.definition.function.latex",
+				"keyword.control.preamble.latex",
+			],
+			"settings": {
+				"foreground": "#63CEA0",
+			},
+		},
+		{
+			"name": "LaTeX | Preamble (Arguments punctuation)",
+			"scope": [
+				"meta.preamble.latex punctuation.definition.arguments.begin.latex",
+				"meta.preamble.latex punctuation.definition.arguments.end.latex",
+			],
+			"settings": {
+				"foreground": "#353535",
+			},
+		},
+		{
+			"name": "LaTeX | Preamble (Optional parameter)",
+			"scope": [
+				"meta.preamble.latex meta.parameter.optional.latex punctuation.definition.optional.arguments.begin.latex",
+				"meta.preamble.latex meta.parameter.optional.latex punctuation.definition.optional.arguments.end.latex",
+				"meta.preamble.latex meta.parameter.optional.latex variable.parameter.function.latex",
+			],
+			"settings": {
+				"foreground": "#707070",
+			},
+		},
+		{
+			"name": "LaTeX | Ref",
+			"scope": [
+				"keyword.control.ref.latex punctuation.definition.keyword.latex",
+				"keyword.control.ref.latex",
+				"meta.reference.label.latex punctuation.definition.arguments.begin.latex",
+				"meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.begin.latex",
+				"meta.function.environment.general.latex meta.reference.label.latex punctuation.definition.arguments.end.latex",
+			],
+			"settings": {
+				"foreground": "#78CEFE",
+			},
+		},
+		{
+			"name": "LaTeX | Ref (Label)",
+			"scope": [
+				"constant.other.reference.label.latex",
+				// "meta.reference.label.latex",
+			],
+			"settings": {
+				"foreground": "#78CEFE",
+				"fontStyle": "bold",
+			},
+		},
+		{
+			"name": "LaTeX | Section (Name)",
+			"scope": [
+				"entity.name.section.latex",
+			],
+			"settings": {
+				"foreground": "#FF7BB3",
+				"fontStyle": "bold",
+			},
+		},
+		{
+			"name": "LaTeX | Section (Punctuation)",
+			"scope": [
+				"meta.function.section.section.latex punctuation.definition.arguments.begin.latex",
+				"meta.function.section.section.latex punctuation.definition.arguments.end.latex",
+				"meta.function.section.subsection.latex punctuation.definition.arguments.begin.latex",
+				"meta.function.section.subsection.latex punctuation.definition.arguments.end.latex",
+				"meta.function.section.subsubsection.latex punctuation.definition.arguments.begin.latex",
+				"meta.function.section.subsubsection.latex punctuation.definition.arguments.end.latex",
+				"support.function.section.latex punctuation.definition.function.latex",
+				"support.function.section.latex",
+			],
+			"settings": {
+				"foreground": "#FF7BB3",
+			},
+		},
+		{
+			"name": "LaTeX | TikZ (Environment)",
+			"scope": [
+				"meta.function.environment.latex.tikz support.function.be.latex punctuation.definition.function.latex",
+				"meta.function.environment.latex.tikz support.function.be.latex",
+				"meta.function.environment.latex.tikz punctuation.definition.arguments.begin.latex",
+				"meta.function.environment.latex.tikz punctuation.definition.arguments.end.latex",
+			],
+			"settings": {
+				"foreground": "#788BFD",
+			},
+		},
+		{
+			"name": "LaTeX | TikZ (Environment Parameter)",
+			"scope": [
+				"meta.function.environment.latex.tikz variable.parameter.function.latex",
+			],
+			"settings": {
+				"foreground": "#788BFD",
+				"fontStyle": "bold",
+			},
+		},
 		// Markdown
 		{
 			"name": "Markdown | Bold",
