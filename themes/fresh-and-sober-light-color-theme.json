@@ -574,6 +574,10 @@
 				"meta.function.begin-document.latex punctuation.definition.arguments.end.latex",
 				"meta.function.begin-document.latex support.function.be.latex punctuation.definition.function.latex",
 				"meta.function.begin-document.latex support.function.be.latex",
+				"meta.function.end-document.latex punctuation.definition.arguments.begin.latex",
+				"meta.function.end-document.latex punctuation.definition.arguments.end.latex",
+				"meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex",
+				"meta.function.end-document.latex support.function.be.latex",
 			],
 			"settings": {
 				"foreground": "#788BFD",
@@ -583,6 +587,7 @@
 			"name": "LaTeX | Begin document (Parameter)",
 			"scope": [
 				"meta.function.begin-document.latex variable.parameter.function.latex",
+				"meta.function.end-document.latex variable.parameter.function.latex",
 			],
 			"settings": {
 				"foreground": "#788BFD",
