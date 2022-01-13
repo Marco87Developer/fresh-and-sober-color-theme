@@ -661,6 +661,8 @@
 			"scope": [
 				"meta.function.environment.general.latex punctuation.definition.arguments.begin.latex",
 				"meta.function.environment.general.latex punctuation.definition.arguments.end.latex",
+				"meta.function.environment.list.latex punctuation.definition.arguments.begin.latex",
+				"meta.function.environment.list.latex punctuation.definition.arguments.end.latex",
 				"support.function.be.latex punctuation.definition.function.latex",
 				"support.function.be.latex",
 			],
@@ -672,6 +674,7 @@
 			"name": "LaTeX | Environment (Parameter)",
 			"scope": [
 				"meta.function.environment.general.latex variable.parameter.function.latex",
+				"meta.function.environment.list.latex variable.parameter.function.latex",
 			],
 			"settings": {
 				"foreground": "#63CEA0",
