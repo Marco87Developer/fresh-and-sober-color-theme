@@ -755,6 +755,17 @@
 			},
 		},
 		{
+			"name": "Markdown | Section (Heading 5)",
+			"scope": [
+				"heading.5.markdown entity.name.section.markdown",
+				"heading.5.markdown punctuation.definition.heading.markdown",
+			],
+			"settings": {
+				"foreground": "#FFFCFD",
+				"fontStyle": "bold",
+			},
+		},
+		{
 			"name": "Markdown | Separator",
 			"scope": [
 				"meta.separator.markdown"
