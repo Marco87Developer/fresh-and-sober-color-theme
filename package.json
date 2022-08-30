@@ -2,9 +2,9 @@
     "name": "fresh-and-sober-color-theme",
     "displayName": "Fresh and Sober Color Theme",
     "description": "This is a theme inspired by relaxation and freshness, for a code that is beautiful to look at, easy to read and pleasant to write.",
-    "version": "1.2.2",
+    "version": "1.2.4",
     "engines": {
-        "vscode": "^1.63.2"
+        "vscode": "^1.70.2"
     },
     "categories": [
         "Themes"

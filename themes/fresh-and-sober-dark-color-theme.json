@@ -391,6 +391,7 @@
 				"string.interpolated.triple.single.dart",
 				"string.interpolated",
 				"string.quoted.double",
+				"string.quoted.single.dart",
 			],
 			"settings": {
 				"foreground": "#AAE0FE",
