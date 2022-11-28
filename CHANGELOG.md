@@ -5,9 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.2.5
+
+Release date: 2022-11-28.
+
+### Changed
+
+* YAML comments color.
+
 ## 1.2.4
 
-<sup><sub>Release date: 2022-08-30.</sub></sup>
+Release date: 2022-08-30.
 
 ### Added
 
@@ -15,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 1.2.3
 
-<sup><sub>Release date: 2022-01-17.</sub></sup>
+Release date: 2022-01-17.
 
 ### Added
 
@@ -23,7 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 1.2.2
 
-<sup><sub>Release date: 2022-01-13.</sub></sup>
+Release date: 2022-01-13.
 
 ### Fixed
 
@@ -31,7 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 1.2.1
 
-<sup><sub>Release date: 2022-01-07.</sub></sup>
+Release date: 2022-01-07.
 
 ### Fixed
 
@@ -39,7 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 1.2.0
 
-<sup><sub>Release date: 2022-01-07.</sub></sup>
+Release date: 2022-01-07.
 
 ### Added
 
@@ -47,7 +55,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 1.1.0
 
-<sup><sub>Release date: 2021-12-17.</sub></sup>
+Release date: 2021-12-17.
 
 ### Added
 
@@ -55,7 +63,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 1.0.1
 
-<sup><sub>Release date: 2021-12-06.</sub></sup>
+Release date: 2021-12-06.
 
 ### Added
 
@@ -63,6 +71,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 1.0.0
 
-<sup><sub>Release date: 2021-12-06.</sub></sup>
+Release date: 2021-12-06.
 
 * First release.

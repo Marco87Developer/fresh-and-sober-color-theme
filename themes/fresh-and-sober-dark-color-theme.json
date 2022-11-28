@@ -837,6 +837,24 @@
 			},
 		},
 		{
+			"name": "YAML | Comment",
+			"scope": [
+				"source.yaml comment.line.number-sign.yaml",
+			],
+			"settings": {
+				"foreground": "#FFE49E",
+			},
+		},
+		{
+			"name": "YAML | Punctuation (Comment)",
+			"scope": [
+				"source.yaml comment.line.number-sign.yaml punctuation.definition.comment.yaml",
+			],
+			"settings": {
+				"foreground": "#FFE49E",
+			},
+		},
+		{
 			"name": "YAML | Punctuation (Key-value separator, Sequence item)",
 			"scope": [
 				"punctuation.separator.key-value.mapping.yaml",
