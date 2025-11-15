@@ -1,29 +1,42 @@
 {
-    "name": "fresh-and-sober-color-theme",
-    "displayName": "Fresh and Sober Color Theme",
-    "description": "This is a theme inspired by relaxation and freshness, for a code that is beautiful to look at, easy to read and pleasant to write.",
-    "version": "1.2.7",
-    "engines": {
-        "vscode": "^1.75.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Fresh and Sober Color Theme | Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/fresh-and-sober-dark-color-theme.json"
-            },
-            {
-                "label": "Fresh and Sober Color Theme | Light",
-                "uiTheme": "vs",
-                "path": "./themes/fresh-and-sober-light-color-theme.json"
-            }
-        ]
-    },
-    "icon": "logo.png",
-    "publisher": "Marco87Dev",
-    "repository": "https://github.com/Marco87Developer/fresh-and-sober-color-theme"
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Fresh and Sober Color Theme (Light)",
+				"path": "./themes/Fresh and Sober Color Theme-color-theme-light.json",
+				"uiTheme": "vs"
+			},
+			{
+				"label": "Fresh and Sober Color Theme (Legacy Light)",
+				"path": "./themes/Fresh and Sober Color Theme-color-theme-light-legacy.json",
+				"uiTheme": "vs"
+			},
+			{
+				"label": "Fresh and Sober Color Theme (Dark)",
+				"path": "./themes/Fresh and Sober Color Theme-color-theme-dark.json",
+				"uiTheme": "vs-dark"
+			},
+			{
+				"label": "Fresh and Sober Color Theme (Legacy Dark)",
+				"path": "./themes/Fresh and Sober Color Theme-color-theme-dark-legacy.json",
+				"uiTheme": "vs-dark"
+			}
+		]
+	},
+	"description": "This is a theme inspired by relaxation and freshness, for a code that is beautiful to look at, easy to read and pleasant to write.",
+	"displayName": "Fresh and Sober Color Theme",
+	"engines": {
+		"vscode": "^1.106.0"
+	},
+	"icon": "images/icon.png",
+	"name": "fresh-and-sober-color-theme",
+	"publisher": "Marco87Dev",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Marco87Developer/fresh-and-sober-color-theme"
+	},
+	"version": "2.0.0"
 }
