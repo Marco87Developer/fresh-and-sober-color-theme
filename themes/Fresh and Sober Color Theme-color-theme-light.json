@@ -427,6 +427,14 @@
 				"foreground": "#0062A6"
 			}
 		},
+		// Dart
+		{
+			"scope": "source.dart keyword.new.dart",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#0089E9"
+			}
+		},
 		// JSON
 		{
 			"scope": "comment.block.json.comments",
